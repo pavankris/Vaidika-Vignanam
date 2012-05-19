@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89E169E215674CAB00E786A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E169E115674CAB00E786A3 /* UIKit.framework */; };
+		89E169E415674CAB00E786A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E169E315674CAB00E786A3 /* Foundation.framework */; };
+		89E169E615674CAB00E786A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E169E515674CAB00E786A3 /* CoreGraphics.framework */; };
+		89E169EC15674CAB00E786A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89E169EA15674CAB00E786A3 /* InfoPlist.strings */; };
+		89E169EE15674CAB00E786A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E169ED15674CAB00E786A3 /* main.m */; };
+		89E169F215674CAB00E786A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E169F115674CAB00E786A3 /* AppDelegate.m */; };
+		89E169F515674CAB00E786A3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E169F315674CAB00E786A3 /* MainStoryboard_iPhone.storyboard */; };
+		89E169F815674CAB00E786A3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E169F615674CAB00E786A3 /* MainStoryboard_iPad.storyboard */; };
+		89E169FB15674CAB00E786A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E169FA15674CAB00E786A3 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89E169DD15674CAB00E786A3 /* Vaidika-Vignanam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vaidika-Vignanam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E169E115674CAB00E786A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89E169E315674CAB00E786A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89E169E515674CAB00E786A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89E169E915674CAB00E786A3 /* Vaidika-Vignanam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vaidika-Vignanam-Info.plist"; sourceTree = "<group>"; };
+		89E169EB15674CAB00E786A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89E169ED15674CAB00E786A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89E169EF15674CAB00E786A3 /* Vaidika-Vignanam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vaidika-Vignanam-Prefix.pch"; sourceTree = "<group>"; };
+		89E169F015674CAB00E786A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89E169F115674CAB00E786A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89E169F415674CAB00E786A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		89E169F715674CAB00E786A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		89E169F915674CAB00E786A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89E169FA15674CAB00E786A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89E169DA15674CAB00E786A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E169E215674CAB00E786A3 /* UIKit.framework in Frameworks */,
+				89E169E415674CAB00E786A3 /* Foundation.framework in Frameworks */,
+				89E169E615674CAB00E786A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89E169D215674CAB00E786A3 = {
+			isa = PBXGroup;
+			children = (
+				89E169E715674CAB00E786A3 /* Vaidika-Vignanam */,
+				89E169E015674CAB00E786A3 /* Frameworks */,
+				89E169DE15674CAB00E786A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89E169DE15674CAB00E786A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89E169DD15674CAB00E786A3 /* Vaidika-Vignanam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89E169E015674CAB00E786A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E169E115674CAB00E786A3 /* UIKit.framework */,
+				89E169E315674CAB00E786A3 /* Foundation.framework */,
+				89E169E515674CAB00E786A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89E169E715674CAB00E786A3 /* Vaidika-Vignanam */ = {
+			isa = PBXGroup;
+			children = (
+				89E169F015674CAB00E786A3 /* AppDelegate.h */,
+				89E169F115674CAB00E786A3 /* AppDelegate.m */,
+				89E169F315674CAB00E786A3 /* MainStoryboard_iPhone.storyboard */,
+				89E169F615674CAB00E786A3 /* MainStoryboard_iPad.storyboard */,
+				89E169F915674CAB00E786A3 /* ViewController.h */,
+				89E169FA15674CAB00E786A3 /* ViewController.m */,
+				89E169E815674CAB00E786A3 /* Supporting Files */,
+			);
+			path = "Vaidika-Vignanam";
+			sourceTree = "<group>";
+		};
+		89E169E815674CAB00E786A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89E169E915674CAB00E786A3 /* Vaidika-Vignanam-Info.plist */,
+				89E169EA15674CAB00E786A3 /* InfoPlist.strings */,
+				89E169ED15674CAB00E786A3 /* main.m */,
+				89E169EF15674CAB00E786A3 /* Vaidika-Vignanam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89E169DC15674CAB00E786A3 /* Vaidika-Vignanam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E169FE15674CAB00E786A3 /* Build configuration list for PBXNativeTarget "Vaidika-Vignanam" */;
+			buildPhases = (
+				89E169D915674CAB00E786A3 /* Sources */,
+				89E169DA15674CAB00E786A3 /* Frameworks */,
+				89E169DB15674CAB00E786A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vaidika-Vignanam";
+			productName = "Vaidika-Vignanam";
+			productReference = 89E169DD15674CAB00E786A3 /* Vaidika-Vignanam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E169D415674CAB00E786A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 89E169D715674CAB00E786A3 /* Build configuration list for PBXProject "Vaidika-Vignanam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89E169D215674CAB00E786A3;
+			productRefGroup = 89E169DE15674CAB00E786A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E169DC15674CAB00E786A3 /* Vaidika-Vignanam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89E169DB15674CAB00E786A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E169EC15674CAB00E786A3 /* InfoPlist.strings in Resources */,
+				89E169F515674CAB00E786A3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				89E169F815674CAB00E786A3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E169D915674CAB00E786A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E169EE15674CAB00E786A3 /* main.m in Sources */,
+				89E169F215674CAB00E786A3 /* AppDelegate.m in Sources */,
+				89E169FB15674CAB00E786A3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89E169EA15674CAB00E786A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E169EB15674CAB00E786A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89E169F315674CAB00E786A3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E169F415674CAB00E786A3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		89E169F615674CAB00E786A3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E169F715674CAB00E786A3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89E169FC15674CAB00E786A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E169FD15674CAB00E786A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E169FF15674CAB00E786A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vaidika-Vignanam/Vaidika-Vignanam-Prefix.pch";
+				INFOPLIST_FILE = "Vaidika-Vignanam/Vaidika-Vignanam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89E16A0015674CAB00E786A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vaidika-Vignanam/Vaidika-Vignanam-Prefix.pch";
+				INFOPLIST_FILE = "Vaidika-Vignanam/Vaidika-Vignanam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89E169D715674CAB00E786A3 /* Build configuration list for PBXProject "Vaidika-Vignanam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E169FC15674CAB00E786A3 /* Debug */,
+				89E169FD15674CAB00E786A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E169FE15674CAB00E786A3 /* Build configuration list for PBXNativeTarget "Vaidika-Vignanam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E169FF15674CAB00E786A3 /* Debug */,
+				89E16A0015674CAB00E786A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89E169D415674CAB00E786A3 /* Project object */;
+}
